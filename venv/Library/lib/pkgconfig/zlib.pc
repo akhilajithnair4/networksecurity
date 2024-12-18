@@ -1,0 +1,13 @@
+prefix=C:/NetworkSecurity/venv/Library
+exec_prefix=C:/NetworkSecurity/venv/Library
+libdir=C:/NetworkSecurity/venv/Library/lib
+sharedlibdir=C:/NetworkSecurity/venv/Library/lib
+includedir=C:/NetworkSecurity/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
